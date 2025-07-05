@@ -11,7 +11,9 @@ a {
 
 a:hover {
 	opacity: .9;
-	color:#32343a
+	color:#32343a;
+	cursor: pointer;
+
 }
 a.project {
 	text-transform:none;
@@ -332,6 +334,8 @@ a.intro-link {
 	line-height: 26px;
 	text-decoration: none;
 	display: block;
+	max-width: min-content;
+  white-space: nowrap;
 }
 .features-row .feature .skills-longlist {
 	line-height: 26px;
