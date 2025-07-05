@@ -104,7 +104,7 @@
 	</div>
 	<div class="footer-wrap">
 		<div class="copyright">
-			&copy; Sophie Austwick 2023
+			&copy; Sophie Austwick <span id="year"></span>
 		</div>
 		<div class="footer-links">
 			<a class="link" href="mailto:sophie@sojo.io">Email
@@ -113,3 +113,6 @@
 </div>
 </body>
 </html> 
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
